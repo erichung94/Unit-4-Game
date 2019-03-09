@@ -1,0 +1,60 @@
+/* General Elements*/
+html{
+	background-image: url("../images/Taric.jpg")
+}
+.box {
+	width: 80%;
+	background-color: white;
+	opacity: 0.8;
+	padding-bottom: 80px;
+	z-index: -1;
+}
+div {
+	background-color: white;
+	margin: 0 auto;
+	width: 25%;
+	border: solid 1px grey;
+	padding: 5px;
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	margin-top: 20px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+	font-family: 'Righteous', cursive;
+}
+}
+/* Specfic Elements*/
+div.header, div.gems{
+	background-color: #e0e0eb;
+	opacity: 1;
+}
+div.header, div.instructions{
+	width: 60%;
+	opacity: 1;
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	width: 58%;
+	padding: 20px;
+	opacity: 1;
+}
+.userTotal{
+	width: 58.1%;
+	height: 20px;
+	padding: 20px;
+	opacity: 1;
+}
+.gems{
+	width: 60%;
+	opacity: 1;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+	opacity: 1;
+}
